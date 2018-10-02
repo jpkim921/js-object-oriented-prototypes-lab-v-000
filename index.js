@@ -22,6 +22,11 @@ function BoardMember(name, homeState, training){
   // }
 }
 
+
+// User.prototype.sayHello = function() {
+//     console.log(`Hello everybody, my name is ${this.name}`);
+// };
+
 BoardMember.prototype.veto = function(){
     return 'No, I must disagree'
   }
